@@ -16,20 +16,12 @@
         </p>
     </div>
 
+    <h3 class='next-perfomance__title'>Ближайший спектакль</h3>
     <div class='next-perfomance'>
-        <h3 class='next-perfomance__title'>Ближайший спектакль</h3>
-        <h3>Горе от ума</h3>
+        <h3 class='next-perfomance__name'>Горе от ума</h3>
         <div class='next-perfomance__image'><img src="/application/images/next-perfomance.jpeg" alt="ближайший спектакль"> </div>
-        <p>простая трагедия в двух действиях (12+)</p>
+        <p class='next-perfomance__decription'>простая трагедия в двух действиях (12+)</p>
         <p> 12 марта 21:00</p>
-        <input type="submit" value='Подробнее'>
+        <input type="button"  class='next-perfomance__btn' value='Подробнее'>
     </div>
-
-    <div class='schedule'>
-        <h3 class='schedule__title'>Расписание мероприятий</h3>
-        <p></p>
-        <p></p>
-        <p></p>
-    </div>
-
 </div>
