@@ -16,8 +16,8 @@
         </p>
     </div>
 
-    <h3 class='next-perfomance__title'>Ближайший спектакль</h3>
     <div class='next-perfomance'>
+        <h3 class='next-perfomance__title'>Ближайший спектакль</h3>
         <h3>Горе от ума</h3>
         <div class='next-perfomance__image'><img src="/application/images/next-perfomance.jpeg" alt="ближайший спектакль"> </div>
         <p>простая трагедия в двух действиях (12+)</p>
@@ -26,8 +26,10 @@
     </div>
 
     <div class='schedule'>
+        <h3 class='schedule__title'>Расписание мероприятий</h3>
         <p></p>
         <p></p>
         <p></p>
     </div>
+
 </div>

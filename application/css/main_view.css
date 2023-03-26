@@ -47,13 +47,20 @@
     margin-bottom: 0;
 }
 
-.next-perfomance__title{
+.next-perfomance__title, .schedule__title{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
 }
 
 .next-perfomance{
     border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.schedule{
+    border: 1px solid orange;
     display: flex;
     flex-direction: column;
     align-items: center;
