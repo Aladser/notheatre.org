@@ -1,3 +1,14 @@
+.header__title{
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1.5rem 0rem;
+    margin: 0;
+    background-color: rgb(0, 100, 255);
+    color: white;
+}
+/***** container *****/
 .container{
     width: 98%;
     margin: auto;
@@ -7,23 +18,12 @@
     align-items: center;
     margin: 0;
 }
-
 .container *{
     width: 66%;
     text-align: center;
 }
 
-.title{
-    font-weight: bold;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 2rem;
-    text-align: center;
-    padding: 2rem 0rem;
-    margin: 0;
-    background-color: rgb(0, 100, 255);
-    color: white;
-}
-
+/***** visit-card *****/
 .visit-card{
     display: flex;
     flex-direction: column;
@@ -34,7 +34,6 @@
 .visit-card__logo{
     font-size: 1.2rem;
 }
-
 .visit-card__description{
     display: flex;
     justify-content: center;
@@ -50,12 +49,12 @@
     font-style: oblique;
     font-size: 1.2rem;
 }
-
 .next-perfomance__title, .schedule__title{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
 }
 
+/***** next-perfomance *****/
 .next-perfomance{
     display: flex;
     flex-direction: column;
@@ -63,16 +62,13 @@
     width: 50%;
     border: 0.2rem solid rgb(0, 100, 255);
 }
-
 .next-perfomance *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 .next-perfomance__title{
     margin: 0;
     padding: 1.5rem 0;
 }
-
 .next-perfomance__name{
     font-size: 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -82,13 +78,11 @@
     padding: 1rem 0;
     margin: 0;
 }
-
-.next-perfomance__decription{
-    font-size: 1rem;
-    background-color: rgb(0, 100, 255);
-    width: 100%;
-    padding: 1rem 0;
-    color: white;
+.next-perfomance__image{
+    margin: 0;
+}
+.next-perfomance__image{
+    margin-top: 1.2rem;
 }
 
 .next-perfomance__btn{
