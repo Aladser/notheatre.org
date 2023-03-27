@@ -19,7 +19,7 @@
     color: white;
 }
 
-.header_btn{
+.header__btn{
     border-top: none;
     border-bottom: none;
     border-left: none;
@@ -35,29 +35,29 @@
     color: white;
     font-size: 1.2rem;
 }
-.header_btn:hover{
+.header__btn:hover{
     background-color: white;
     color: rebeccapurple;
     border-color: white;
     cursor: pointer;
 }
-.header_btn:active{
+.header__btn:active{
     background-color: rebeccapurple;
     color: white;
     cursor: default;
 }
-.header_btn-shedule{
+.header__btn-posters{
     position: absolute;
     left: 8rem;
     top: 0;
 }
 
-.header_btn-cash{
+.header__btn-cash{
     position: absolute;
     left: 16rem;
     top: 0;
 }
-.header_btn-contacts{
+.header__btn-contacts{
     position: absolute;
     left: 24rem;
     top: 0;

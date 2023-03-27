@@ -1,5 +1,6 @@
 <div class='container perfomance'>
     <h2 class='perfomance__name'>Горе от ума</h2>
+    <p class='perfomance__time'>12 марта 21:00</p>
     <div class='perfomance__image'><img src="/application/images/next-perfomance.jpeg" alt="ближайший спектакль"> </div>
 
     <p class='perfomance__decription'>
@@ -24,7 +25,5 @@
             <p class='perfomance__rule'>Лиза служанка: </p><p class='perfomance__actor'>Анастасия Быкова</p>
         </div>
     </div>
-
-    <p class='perfomance__time'>12 марта 21:00</p>
     <input type="button"  class='perfomance__btn' value='Купить билет'>
 </div>
