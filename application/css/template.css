@@ -1,0 +1,65 @@
+.header{
+    height: 5rem;
+    border: 1px solid blue;
+    position: relative;
+    background-color: rebeccapurple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header__title{
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1.4rem 0rem;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 3rem;
+    color: white;
+}
+
+.header_btn{
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-left: 1px solid white;
+
+    display: block;
+    height: 98%;
+    width: 8rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 1.2rem;
+}
+.header_btn:hover{
+    background-color: white;
+    color: rebeccapurple;
+    border-color: white;
+    cursor: pointer;
+}
+.header_btn:active{
+    background-color: rebeccapurple;
+    color: white;
+    cursor: default;
+}
+.header_btn-shedule{
+    position: absolute;
+    left: 8rem;
+    top: 0;
+}
+
+.header_btn-cash{
+    position: absolute;
+    left: 16rem;
+    top: 0;
+}
+.header_btn-contacts{
+    position: absolute;
+    left: 24rem;
+    top: 0;
+    border-right: 1.5px solid white;
+}
