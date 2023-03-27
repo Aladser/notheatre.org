@@ -5,9 +5,9 @@ class Route
 	public static function start()
 	{
 		// контроллер и действие по умолчанию
-		$controller_name = 'main';
-             $action_name = 'index';
-	             $routes = $_GET['url'] ?? null;
+		$routes = mb_substr($_SERVER['REDIRECT_URL'], 1);
+		$controller_name = 'Main';
+        $action_name = 'index';
 		
 		// получаем имя контроллера
 		if ( !empty($routes) )
@@ -38,6 +38,14 @@ class Route
 			Route::ErrorPage404();
 		}
 		// создаем контроллер
+		$controller_name = explode('_', $controller_name)[0];
+		$controller_name = str_replace('-',' ',$controller_name);
+		$controller_name = ucwords($controller_name);
+		$controller_name = str_replace(' ','',$controller_name);
+		$controller_name = $controller_name.'_Controller';
+		//echo $controller_name;
+		//echo '<br>';
+
 		$controller = new $controller_name;
 		$action = $action_name;
 		if(method_exists($controller, $action))

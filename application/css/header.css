@@ -1,0 +1,10 @@
+.header__title{
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1.5rem 0rem;
+    margin: 0;
+    background-color: rebeccapurple;
+    color: white;
+}

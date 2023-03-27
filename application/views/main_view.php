@@ -1,6 +1,3 @@
-<header>
-    <h1 class='header__title'>Театр не театра</h1>
-</header>
 <div class='container'>
     <p class='visit-card__logo'> Самый атмосферный театр Благовещенска </p>
     <div class='visit-card'>

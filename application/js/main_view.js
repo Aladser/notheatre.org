@@ -1,3 +1,1 @@
-document.querySelector('.next-perfomance__btn').addEventListener('click', ()=>{
-    console.log('клик');
-});
+document.querySelector('.next-perfomance__btn').addEventListener('click', () => window.open('/next-perfomance', '_self'));next-perfomance
