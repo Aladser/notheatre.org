@@ -14,7 +14,9 @@
         <input type="text" id='header_btn-contacts' class='header_btn header_btn-contacts' value='Контакты'>
         <h1 class='header__title'>Театр не театра</h1>
     </header>
-    <?php include $content_view; ?>
-    <script type='text/javascript' src="application/js/<?=$content_js?>"></script>
+
+    <?php include $content_view ?>
+    
+    <script type='text/javascript' src='application/js/template.js'></script>
 </body> 
 </html>

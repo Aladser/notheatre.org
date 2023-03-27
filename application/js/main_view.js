@@ -1,2 +1,0 @@
-document.querySelector('.next-perfomance__btn').addEventListener('click', () => window.open('/next-perfomance', '_self'));
-document.querySelector('#header_btn-cash').addEventListener('click', () => window.open('/cash', '_self'));

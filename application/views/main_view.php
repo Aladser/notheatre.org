@@ -22,3 +22,4 @@
         <input type="button"  class='next-perfomance__btn' value='Подробнее'>
     </div>
 </div>
+<script type='text/javascript' src='application/js/main.js'></script>
