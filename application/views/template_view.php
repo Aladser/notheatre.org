@@ -10,7 +10,7 @@
     <header class='header'>
         <input type="text" id='header_btn-main'     class='header_btn' value='Главная'>
         <input type="text" id='header_btn-shedule'  class='header_btn header_btn-shedule' value='Расписание'>
-        <input type="text" id='header_btn-cash'     class='header_btn header_btn-cash' value='Кассы'>
+        <input type="text" id='header_btn-cash'     class='header_btn header_btn-cash' value='Касса'>
         <input type="text" id='header_btn-contacts' class='header_btn header_btn-contacts' value='Контакты'>
         <h1 class='header__title'>Театр не театра</h1>
     </header>
