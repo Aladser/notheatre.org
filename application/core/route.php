@@ -6,14 +6,8 @@ class Route
 	{
 		// контроллер и действие по умолчанию
 		$routes = mb_substr($_SERVER['REDIRECT_URL'], 1);
-		$controller_name = 'Main';
+		$controller_name = !empty($routes) ? $routes : 'Main';
         $action_name = 'index';
-		
-		// получаем имя контроллера
-		if ( !empty($routes) )
-		{	
-			$controller_name = $routes;
-		}
 		
 		// добавляем префиксы
 		$model_name = 'model_'.$controller_name;
@@ -37,14 +31,13 @@ class Route
 		{
 			Route::ErrorPage404();
 		}
-		// создаем контроллер
+		//**** создаем контроллер
+		// формирование имени класса
 		$controller_name = explode('_', $controller_name)[0];
 		$controller_name = str_replace('-',' ',$controller_name);
 		$controller_name = ucwords($controller_name);
 		$controller_name = str_replace(' ','',$controller_name);
 		$controller_name = $controller_name.'_Controller';
-		//echo $controller_name;
-		//echo '<br>';
 
 		$controller = new $controller_name;
 		$action = $action_name;
