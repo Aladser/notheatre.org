@@ -17,6 +17,10 @@
     </header>
 
     <?php include $content_view ?>
+
+    <footer class='footer'>
+        <p>Театр не театра<br> ИП Плюшкин<br> г.Благовещенск</p>
+    </footer>
     
     <script type='text/javascript' src='application/js/template.js'></script>
 </body> 

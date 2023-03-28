@@ -1,7 +1,5 @@
 <div class='contacts__container'>
     <h2 class='contacts-header'>Контакты</h2>
-    <p class='constacts-owner-name'>Министерство культуры и национальной политики Амурской области
-Амурский ордена Трудового Красного Знамени областной театр драмы</p>
     <table class='contacts-table'>
         <tr><td>Зам. директора по общим вопросам</td><td>Зайцев Сергей Анатольевич</td><td>8 (4162) 33-34-21</td></tr>
         <tr><td>Зам. директора по производ. вопросам</td><td>Непомнящая Татьяна Николаевна</td><td>8 (4162) 33-14-13</td></tr>
@@ -21,9 +19,9 @@
         </p>
         <p class='contacts-address'>
             В интернет сети:<br>
-            drama2@yandex.ru (администрация театра)<br>
-            www.amurteatr.ru (официальный сайт)<br>
-            amurteatr.ru@yandex.ru (веб-разработчик)
+            notheatre@yandex.ru (администрация театра)<br>
+            www.notheatre.ru (официальный сайт)<br>
+            web-notheatre.ru@yandex.ru (веб-разработчик)
         </p>
         <p class='contacts-address'>
             Театральное кафе:<br>
