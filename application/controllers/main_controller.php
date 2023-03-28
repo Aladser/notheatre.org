@@ -1,7 +1,7 @@
 <?php
     class Main_Controller extends Controller { 
         function action_index() { 
-            $this->view->generate('template_view.php', 'main_view.php', 'main.css', 'Главная'); 
+            $this->view->generate('template_view.php', 'main_view.php', 'main.css', 'Театра не театра'); 
         } 
     }
 ?>
