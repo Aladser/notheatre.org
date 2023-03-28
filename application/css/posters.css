@@ -1,0 +1,59 @@
+.posters-header{
+    font-size: 2rem;
+}
+
+.posters-container *{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.poster{
+    border: 1px solid rebeccapurple;
+    width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.poster__time{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 10rem;
+}
+
+.poster__time *{
+    margin: 0;
+    font-size: 1.8rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.poster__image{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.poster_author{
+    position: absolute;
+    top:33.5rem;
+    margin-top: 1.5rem;
+    right: 3rem;
+    width: 10rem;
+    font-style: italic;
+    color: rgb(120,120,120);
+}
+
+.poster__name{
+    font-size: 1.5rem;
+}
+
+.poster__btn{
+    background-color: rebeccapurple;
+    color:white;
+    padding: 1rem;
+}
+.poster__btn:hover{
+    background-color: white;
+    color:rebeccapurple;
+    cursor: pointer;
+}

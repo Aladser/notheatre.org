@@ -1,0 +1,45 @@
+.contacts__container *{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contacts-header{
+    text-align: center;
+}
+
+.constacts-owner-name{
+    width: 58rem;
+    margin: auto;
+    background-color: rebeccapurple;
+    padding: 2rem 0;
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.contacts-table{
+    margin: auto;
+}
+.contacts-table td{
+    border-bottom: 1px solid rgb(220,220,220);
+    padding: 1rem;
+}
+
+.contacts-addresess{
+    display: flex;
+    width: 58rem;
+    margin: auto;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+.contacts-address{
+    width: 26rem;
+    height: 10rem;
+    padding: 1rem;
+    color:grey;
+    margin: 0;
+}
+.contacts-address:nth-child(2n){
+    text-align: right;
+}
