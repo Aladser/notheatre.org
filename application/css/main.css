@@ -1,7 +1,6 @@
 /***** container *****/
 .container{
     width: 98%;
-    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,8 +68,6 @@
 }
 .next-perfomance__image{
     margin: 0;
-}
-.next-perfomance__image{
     margin-top: 1.2rem;
 }
 
@@ -84,7 +81,9 @@
 }
 .next-perfomance__btn:hover{
     cursor: pointer;
-    background-color: rebeccapurple;
+    background-color: white;
+    color:rebeccapurple;
+    border: 1px solid rebeccapurple;
 }
 .next-perfomance__btn:active{
     cursor: default;

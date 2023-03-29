@@ -2,11 +2,8 @@
     padding-left: 1rem;
     width: 50rem;
 }
-.perfomance-price *{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 .cash-header{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 1rem;
 }
 .perfomance-price__row{
@@ -15,7 +12,6 @@
 }
 
 .ticket-refund *{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.9rem;
 }
 

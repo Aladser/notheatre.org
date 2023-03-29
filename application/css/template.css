@@ -1,9 +1,16 @@
+header, footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rebeccapurple;
+    color: white;
+}
+
+div, p, h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .header{
     height: 5rem;
-    border: 1px solid blue;
-    position: relative;
-    background-color: rebeccapurple;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;  
 }
 
 .header__title{
@@ -22,7 +29,6 @@
 .header__btn{
     border-top: none;
     border-bottom: none;
-    border-left: none;
     border-left: 1px solid white;
 
     display: block;
@@ -67,9 +73,7 @@
 .footer{
     line-height: 2;
     padding: 0.5rem 0;
-    background-color: rebeccapurple;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
     text-align: center;
     margin-top: 1rem;
 }

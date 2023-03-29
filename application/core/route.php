@@ -8,7 +8,7 @@ class Route
 		$routes = mb_substr($_SERVER['REDIRECT_URL'], 1);
 		$controller_name = !empty($routes) ? $routes : 'Main';
         $action_name = 'index';
-		
+
 		// добавляем префиксы
 		$model_name = 'model_'.$controller_name;
 		$controller_name = $controller_name.'_controller';
