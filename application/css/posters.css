@@ -56,3 +56,20 @@
     color:rebeccapurple;
     cursor: pointer;
 }
+
+@media (max-width:1100px){
+    .posters-container{
+        width: 100%;
+    }
+    .poster{
+        width: 100%;
+        padding: 0;
+        padding-bottom: 1rem;
+    }
+    .poster__image{
+        width: 100%;
+    }
+    .poster_author{
+        display: none;
+    }
+}
