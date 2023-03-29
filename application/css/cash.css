@@ -1,6 +1,7 @@
 .perfomance-price{
     padding-left: 1rem;
     width: 50rem;
+    border: 1px solid blue;
 }
 
 .cash-header{
@@ -9,6 +10,7 @@
 .perfomance-price__row{
     border-bottom: 1px solid rgb(198, 198, 198);
     padding-bottom: 1rem;
+    width: 100%;
 }
 
 .ticket-refund *{
@@ -19,4 +21,10 @@
     color: red;
     font-style: italic;
     padding-left: 1.5rem;
+}
+
+@media (max-width:830px){
+    .perfomance-price{
+        width: 100%;
+    }
 }
