@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 header, footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rebeccapurple;
@@ -76,4 +81,26 @@ div, p, h4{
 
     text-align: center;
     margin-top: 1rem;
+}
+
+@media (max-width:880px){
+    .header__title{
+        display: none;
+    }
+}
+
+@media (max-width:500px){
+    .header__btn{
+        width: 7.5rem;
+    }
+    .header__btn-posters{
+        left: 7.5rem;
+    }
+    
+    .header__btn-cash{
+        left: 15rem;
+    }
+    .header__btn-contacts{
+        left: 22.4rem;
+    }
 }

@@ -58,17 +58,18 @@
     padding: 1.5rem 0;
 }
 .next-perfomance__name{
-    font-size: 2rem;
+    font-size: 180%;
+    padding: 3% 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
     background-color: rebeccapurple;
     color: white;
-    padding: 1rem 0;
     margin: 0;
 }
 .next-perfomance__image{
     margin: 0;
     margin-top: 1.2rem;
+    width:50rem;
 }
 
 .next-perfomance__btn{
@@ -88,4 +89,18 @@
 .next-perfomance__btn:active{
     cursor: default;
     background-color: rebeccapurple;
+}
+
+@media (max-width:1650px){
+    .next-perfomance__image{
+        width: 100%
+    }
+}
+@media (max-width:840px){
+    .visit-card__logo-image{
+        display: none;
+    }
+    .next-perfomance{
+        width: 500px;
+    }
 }
