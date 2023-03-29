@@ -102,5 +102,6 @@
     }
     .next-perfomance{
         width: 500px;
+        border: none;
     }
 }
