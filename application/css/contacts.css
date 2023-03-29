@@ -39,3 +39,19 @@
 .contacts-address:nth-child(2n){
     text-align: right;
 }
+
+@media(max-width:830px){
+    .contacts-addresess{
+        display: block;
+    }
+    .contacts-address:nth-child(2n){
+        text-align: left;
+    }
+    .contacts-address{
+        height: 3rem;
+        font-size: 0.75rem;
+    }
+    .contacts-table{
+        font-size: 0.75rem;
+    }      
+}

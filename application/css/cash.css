@@ -1,7 +1,10 @@
+.cash-container{
+    padding-right: 1rem;
+}
+
 .perfomance-price{
     padding-left: 1rem;
     width: 50rem;
-    border: 1px solid blue;
 }
 
 .cash-header{
