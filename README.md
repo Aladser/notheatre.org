@@ -14,14 +14,4 @@
 * кассы;
 * контакты
 
-Перенаправление страниц сделано на основе переменной $_SERVER['REDIRECT_URL']: url имеют вид *notheatre.org/название страницы*. это выглядит лаконичней, чем использование $_GET-параметра
-
-### PHP GD
-#### php-gd в Windows
-![Подключение php-gd в Windows](gd_win.png)
-
-#### php-gd в Centos
-![Подключение php-gd в Centos](gd_centos.png)
-
-*В Centos php-gd не отображается в phpinfo().*
-
+Перенаправление страниц сделано на основе переменной $_SERVER['REDIRECT_URL'].
