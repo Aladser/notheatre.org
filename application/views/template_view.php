@@ -41,7 +41,7 @@
     ?>
 
     <footer class='footer'>
-        <div class="container-fluid text-center navbar-custom footer-container">
+        <div class="container-fluid text-center navbar-custom footer-custom">
             <p>Театр не театра<br> ИП Плюшкин<br> г.Благовещенск</p>
         </div>
     </footer>

@@ -1,4 +1,4 @@
-<div class='cash-container'>
+<div class='container-cash'>
 
     <h2 class='cash-header'>Стоимость билетов</h2>
 

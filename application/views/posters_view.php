@@ -1,4 +1,4 @@
-<div class='posters-container'>
+<div class='container-posters'>
     <h2 class='posters-header'>Афиша</h2>
 
     <div class='poster'>

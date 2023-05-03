@@ -1,4 +1,5 @@
-<div class='container'>
+<div class='main-container'>
+
     <p class='visit-card__logo'> Самый атмосферный театр Благовещенска </p>
     <div class='visit-card'>
         <div class='visit-card__logo-image'><img src="/application/images/theatre-logo.png" alt="лого"> </div>
@@ -21,5 +22,7 @@
         <p> 12 марта 21:00</p>
         <input type="button"  class='next-perfomance__btn' value='Подробнее'>
     </div>
+    
 </div>
+
 <script type='text/javascript' src='application/js/main.js'></script>

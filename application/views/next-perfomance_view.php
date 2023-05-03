@@ -1,4 +1,5 @@
-<div class='container perfomance'>
+<div class='container-perfomance'>
+
     <h2 class='perfomance__name'>Горе от ума</h2>
     <p class='perfomance__time'>12 марта 21:00</p>
     <div class='perfomance__image'><img src="/application/images/next-perfomance.jpeg" alt="ближайший спектакль"> </div>
@@ -26,4 +27,5 @@
         </div>
     </div>
     <input type="button"  class='perfomance__btn' value='Купить билет'>
+
 </div>

@@ -1,4 +1,5 @@
-<div class='contacts__container'>
+<div class='container-contacts'>
+
     <h2 class='contacts-header'>Контакты</h2>
     <table class='contacts-table'>
         <tr><td>Зам. директора по общим вопросам</td><td>Зайцев Сергей Анатольевич</td><td>8 (4162) 33-34-21</td></tr>
@@ -29,4 +30,5 @@
             кафе работает с 12-00 до 15-00 (кроме понедельника) и во время спектаклей
         </p>
     </div>
+    
 </div>
