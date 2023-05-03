@@ -5,25 +5,48 @@
 <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?=$pageName?></title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link rel="icon" href="application/images/icon.png">
 <link rel="stylesheet" href="application/css/template.css"> 
 <link rel="stylesheet" href="application/css/<?=$content_css?>">   
 </head> 
 <body>
-    <header class='header'>
-        <input type="text" id='header__btn-main'     class='header__btn' value='Главная'>
-        <input type="text" id='header__btn-posters'  class='header__btn header__btn-posters' value='Афиша'>
-        <input type="text" id='header__btn-cash'     class='header__btn header__btn-cash' value='Касса'>
-        <input type="text" id='header__btn-contacts' class='header__btn header__btn-contacts' value='Контакты'>
-        <h1 class='header__title'>Театр не театра</h1>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/main">Театр не театра</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/posters">Афиша</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/cash">Касса</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/contacts">Контакты</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
-    <?php include $content_view ?>
+    <?php 
+        include $content_view 
+    ?>
 
     <footer class='footer'>
-        <p>Театр не театра<br> ИП Плюшкин<br> г.Благовещенск</p>
+        <div class="container-fluid text-center navbar-custom footer-container">
+            <p>Театр не театра<br> ИП Плюшкин<br> г.Благовещенск</p>
+        </div>
     </footer>
-    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script type='text/javascript' src='application/js/template.js'></script>
 </body> 
 </html>
