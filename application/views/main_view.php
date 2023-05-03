@@ -1,6 +1,6 @@
-<div class='container'>
+<div class='container text-center'>
     <br>
-    <div class='container text-center'>
+    <div class='container'>
         <h3> Самый атмосферный театр Благовещенска </h3>
         <div class='row'>
             <div class='col'>
@@ -21,7 +21,7 @@
         </div>
     </div>
     <br>
-    <div class='container text-center'>
+    <div class='container'>
         <h3>Ближайший спектакль</h3>
         <div class='row'>
             <div class='col'>
