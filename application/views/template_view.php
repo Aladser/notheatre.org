@@ -13,7 +13,7 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom ">
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom bgcolor-rebeccapurple">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/main">Театр не театра</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,8 +40,8 @@
         include $content_view 
     ?>
 
-    <footer class='footer'>
-        <div class="container-fluid text-center navbar-custom footer-custom">
+    <footer>
+        <div class="container-fluid text-center navbar-custom footer-custom bgcolor-rebeccapurple text-white">
             <p>Театр не театра<br> ИП Плюшкин<br> г.Благовещенск</p>
         </div>
     </footer>

@@ -1,9 +1,13 @@
 .navbar-custom {
-    background-color: rebeccapurple;
+    margin-bottom: 0.5rem;
 }
 
 .footer-custom{
-    color:white;
     padding-top: 0.5rem;
     padding-bottom: 0.1rem;
+    margin-top: 0.5rem;
+}
+
+.bgcolor-rebeccapurple{
+    background-color: rebeccapurple;
 }
