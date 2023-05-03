@@ -1,4 +1,4 @@
-<div class='container main-container'>
+<div class='container'>
     <br>
     <div class='container text-center'>
         <h3> Самый атмосферный театр Благовещенска </h3>
