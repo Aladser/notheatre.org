@@ -1,7 +1,7 @@
 <div class='container text-center'>
     <br>
     <div class='container'>
-        <h3> Самый атмосферный театр Благовещенска </h3>
+        <h3 class='pb-2'> Самый атмосферный театр Благовещенска </h3>
         <div class='row'>
             <div class='col'>
                 <img class='h-100  d-flex p-2 main-img' src="/application/images/theatre-logo.png" alt="лого">
