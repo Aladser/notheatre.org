@@ -13,3 +13,11 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.p-6{
+    padding-right: 6rem;
+}
+
+.border{
+    border: 1px solid black;
+}

@@ -7,6 +7,7 @@
 <title><?=$pageName?></title>
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link rel="icon" href="application/images/icon.png">
+<link rel="stylesheet" href="application/css/reset_styles.css"> 
 <link rel="stylesheet" href="application/css/template.css"> 
 <link rel="stylesheet" href="application/css/<?=$content_css?>">   
 </head> 
@@ -41,7 +42,7 @@
     ?>
 
     <footer>
-        <div class="container-fluid text-center navbar-custom footer-custom bgcolor-rebeccapurple text-white pb-1 pt-2">
+        <div class="container-fluid text-center navbar-custom footer-custom bgcolor-rebeccapurple text-white pb-1 pt-2 mt-4">
             <p>Театр не театра<br> ИП Плюшкин<br> г.Благовещенск</p>
         </div>
     </footer>
