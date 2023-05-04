@@ -1,3 +1,15 @@
 .bgcolor-rebeccapurple{
     background-color: rebeccapurple;
 }
+
+.text-vertical-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-center{
+    width: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+}
